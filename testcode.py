@@ -301,9 +301,3 @@ elif choose==4:
 elif choose==5:
     change_pin()
     greeting()
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# else:
-#     print("* ERROR! YOUR INPUT IS INVALID *")
-#     print("* PLEASE PROCEED FROM BEGINNING *")
-#     greeting()
