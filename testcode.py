@@ -52,16 +52,12 @@ def sum_deposited(li):
     for i in li:
         s=s+i
     print()
-    #print("*************************************")
-    #print("TOTAL AMOUNT DEPOSITED: ",s)
     return s
 
 #####################################  TOTAL NUMBER OF NOTES DEPOSITED  ###############################
 def total_deposited(d):
     a=sum(d.values())
     print()
-    #print("*************************************")
-    #print("total number of notes: ", a)
     return a
 
 
@@ -219,10 +215,6 @@ def check_pin():
     else:
         return False
     
-
-
-#************ MAIN FUNCTION  ****************
-
 
 
 #####################################  INPUT  ###################################################
