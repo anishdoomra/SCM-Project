@@ -216,18 +216,6 @@ def check_pin():
         return False
     
 
-
-#####################################  INPUT  ###################################################
-# print()
-# print("PRESS 1 IF YOU WANT TO WITHDRAW")
-# print("PRESS 2 IF YOU WANT TO DEPOSIT")
-# print("PRESS 3 IF YOU WANT TO CHANGE THE NUMBER LINKED TO YOUR BANK ACCOUNT")
-# print("PRESS 4 IF YOU WANT TO CHECK YOUR BANK BALANCE")
-# print()
-# choose= int(input("ENTER YOUR CHOICE: "))
-# print()
-
-
 ################################# CALLING FUNCTION ############################################## 
 
 #~~~~~~~~~~~ CALLING WITHDRAWL  ~~~~~~~~~~~~~~~
@@ -262,8 +250,6 @@ if choose==1:
     
 #~~~~~~~~~~~~  CALLING DEPOSIT  ~~~~~~~~~~~~~~
 elif choose==2:
-
-    #print("* YOU CAN'T DEPOSIT MORE THAN 20,000 RUPEES IN ONE GO *")
     print()
     c=check_pin()
     if(c==True):
@@ -277,8 +263,6 @@ elif choose==2:
         print()
         print("*** INVALID PIN ***")
     
-    
-    #sum()- call sum inside deposit and print sum as well
     greeting()
 #~~~~~~~~~~~~  CALLING CHANGE NUMBER  ~~~~~~~~~~~~~
 elif choose==3:
